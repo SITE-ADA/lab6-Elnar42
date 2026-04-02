@@ -1,5 +1,6 @@
-package az.edu.ada.wm2.mapper;
+package az.edu.ada.wm2.lab6.mapper;
 
+import az.edu.ada.wm2.lab6.Lab6Application;
 import az.edu.ada.wm2.lab6.model.Category;
 import az.edu.ada.wm2.lab6.model.Product;
 import az.edu.ada.wm2.lab6.model.dto.ProductResponseDto;
@@ -12,7 +13,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@SpringBootTest
+@SpringBootTest(classes = Lab6Application.class)
 class ProductMapperTest {
 
     @Autowired

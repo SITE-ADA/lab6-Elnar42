@@ -1,4 +1,4 @@
-package az.edu.ada.wm2.repository;
+package az.edu.ada.wm2.lab6.repository;
 
 import az.edu.ada.wm2.lab6.model.Product;
 import az.edu.ada.wm2.lab6.repository.ProductRepository;
@@ -10,7 +10,8 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @DataJpaTest
 class ProductRepositoryTest {
