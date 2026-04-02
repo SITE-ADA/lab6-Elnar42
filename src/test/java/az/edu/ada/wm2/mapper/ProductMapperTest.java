@@ -12,7 +12,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@SpringBootTest
+@SpringBootTest(classes = az.edu.ada.wm2.lab6.Lab6Application.class)
 class ProductMapperTest {
 
     @Autowired
