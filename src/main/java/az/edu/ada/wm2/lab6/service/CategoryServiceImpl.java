@@ -2,7 +2,9 @@ package az.edu.ada.wm2.lab6.service;
 
 import az.edu.ada.wm2.lab6.model.Category;
 import az.edu.ada.wm2.lab6.model.Product;
-import az.edu.ada.wm2.lab6.model.dto.*;
+import az.edu.ada.wm2.lab6.model.dto.CategoryRequestDto;
+import az.edu.ada.wm2.lab6.model.dto.CategoryResponseDto;
+import az.edu.ada.wm2.lab6.model.dto.ProductResponseDto;
 import az.edu.ada.wm2.lab6.model.mapper.CategoryMapper;
 import az.edu.ada.wm2.lab6.model.mapper.ProductMapper;
 import az.edu.ada.wm2.lab6.repository.CategoryRepository;

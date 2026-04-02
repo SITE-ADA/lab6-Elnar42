@@ -1,6 +1,5 @@
 package az.edu.ada.wm2.lab6.controller;
 
-import az.edu.ada.wm2.lab6.model.Product;
 import az.edu.ada.wm2.lab6.model.dto.ProductRequestDto;
 import az.edu.ada.wm2.lab6.model.dto.ProductResponseDto;
 import az.edu.ada.wm2.lab6.service.ProductService;
